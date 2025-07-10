@@ -1,5 +1,5 @@
 import React from 'react';
-import './MainImages.css'; // We'll create this next
+import './MainImages.css';
 
 function MainImages() {
   return (
