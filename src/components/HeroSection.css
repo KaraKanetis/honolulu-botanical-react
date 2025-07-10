@@ -1,0 +1,8 @@
+.hero-banner {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5fede12796a9ec7fa138bc8c/a4b050dd-6be1-4eb1-bfb6-108f4074465c/ssgreentoper.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 150px;
+  padding: 30px;
+  color: white;
+}

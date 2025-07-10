@@ -1,14 +1,28 @@
-import { Container } from 'react-bootstrap';
+import React from 'react';
+import './style.css';
 
-function App() {
+import NavigationBar from './components/NavigationBar';
+import HeroSection from './components/HeroSection';
+import AccessibilityButton from './components/AccessibilityButton';
+import Breadcrumb from './components/Breadcrumb';
+
+import MainContent from './components/MainContent';
+import GardenGrid from './components/GardenGrid';
+import QRSection from './components/QRSection';
+import ContactFooter from './components/ContactFooter';
+
+export default function App() {
   return (
-    <main>
-      <Container className="text-center">
-        <h1>Honolulu Botanical Gardens</h1>
-        <p>Explore the beauty of Hawai‘i’s plants and gardens.</p>
-      </Container>
-    </main>
+    <div>
+      <NavigationBar />
+      <AccessibilityButton />
+      <HeroSection />
+      <Breadcrumb />
+
+      <MainContent />
+      <GardenGrid />
+      <QRSection />
+      <ContactFooter />
+    </div>
   );
 }
-
-export default App;

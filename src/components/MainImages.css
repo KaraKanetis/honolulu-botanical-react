@@ -1,0 +1,33 @@
+.main-images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 400px;
+}
+
+.main-logo {
+  position: absolute;
+  top: 60px;
+  left: 280px;
+  width: 290px;
+  z-index: 5;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.main-waterfall {
+  position: absolute;
+  top: 50px;
+  left: 490px;
+  width: 570px;
+  z-index: 1;
+}
+
+.main-flower {
+  position: absolute;
+  top: 120px;
+  left: 960px;
+  width: 350px;
+  z-index: 3;
+}
